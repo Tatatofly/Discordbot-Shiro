@@ -13,7 +13,7 @@ npm install --save discord.js-commando xml2js twitter discord.js
 - Smug: Posts smug anime girl :^)
 - Rule34: Posts lewd image from rule34.xxx :sweat_drops:
 - Twitter: Tweets you message :bird:
-- Weather: Posts weather from given city :white_sun_rain_cloud:
+- Weather: Posts weather from given city
 
 ## Planned modules
 
