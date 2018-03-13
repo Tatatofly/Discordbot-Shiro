@@ -23,9 +23,12 @@ npm install --save discord.js-commando xml2js twitter discord.js
 ### Status
 - Steam: Posts steam and csgo server status
 
+### Owner Tools
+- Activity: Sets bot Activity
+- Picture: Sets bot profile picture from url
+
 ## Planned modules
 
 
 ## TODO
-- Error handling (try & catch)
 - Input filter and sanitization
