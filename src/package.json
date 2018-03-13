@@ -1,0 +1,17 @@
+{
+  "name": "discobot",
+  "version": "0.0.1",
+  "description": "Discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tatu Toikkanen",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.9.0",
+    "twitter": "^1.7.1",
+    "xml2js": "^0.4.19"
+  }
+}
