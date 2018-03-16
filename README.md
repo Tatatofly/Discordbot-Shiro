@@ -24,10 +24,11 @@ npm install --save discord.js-commando xml2js twitter discord.js
 
 ## Current modules
 ### Fun
-- Cat: Posts awesome cat :cat: *Currently dead*
+- Cat: Posts awesome cat :cat: *API will be fixed*
 - Meme: Posts spicy meme :ok_hand:
 - Smug: Posts smug anime girl :^)
 - Rule34: Posts lewd image from rule34.xxx :sweat_drops:
+- Get: Checks 'em and posts result :point_right: 
 
 ### Twitter
 - Twitter: Tweets you message :bird:
