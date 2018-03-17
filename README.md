@@ -34,7 +34,7 @@ npm install --save discord.js-commando xml2js twitter discord.js
 - Twitter: Tweets you message :bird:
 
 ### Sää
-- Weather: Posts weather from given city
+- Weather: Posts weather from given city *currently only finnish cities*
 
 ### Status
 - Steam: Posts steam and csgo server status
