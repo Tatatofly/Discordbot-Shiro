@@ -17,7 +17,7 @@ class CatCommand extends Commando.Command {
     }
 
     async run(message, args) {
-        var url = 'http://random.cat/meow';
+        var url = 'http://aws.random.cat/meow'; // currently you have to use aws subdomain
         try{
             http.get(url, function(res){
                 var body = '';

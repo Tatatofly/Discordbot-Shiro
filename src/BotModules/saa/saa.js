@@ -79,13 +79,13 @@ class SaaCommand extends Commando.Command {
                                 var saaMark = "°C";
 
                                 switch(true) {
-                                case (saaTemp < 270):
+                                case (saaTemp < 263):
                                     var saaVari = "#0000FF";
                                     break;
-                                case (saaTemp < 280):
+                                case (saaTemp < 273):
                                     var saaVari = "#0096FF";
                                     break;
-                                case (saaTemp < 290):
+                                case (saaTemp < 288):
                                     var saaVari = "#EAFF00";
                                     break;
                                 case (saaTemp < 300):
@@ -97,7 +97,7 @@ class SaaCommand extends Commando.Command {
 
                                 // Temp Kelvin to C
                                 saaTemp = saaTemp - 273.15;
-                                saaTemp = saaTemp.toFixed(0);
+                                saaTemp = saaTemp.toFixed(1);
 
                                 // Wind
                                 var saaWind = getResponse.wind.speed;
@@ -166,9 +166,8 @@ class SaaCommand extends Commando.Command {
                                 }
 
                                 var saaEmbed = new Discord.RichEmbed()
-                                    .setTitle("Weather of " + saaCity)
                                     .setColor(saaVari)
-                                    .addField("Lämpötila ", saaTemp + saaMark + " " + ":dash: " + saaWind + "m/s " + saaWindEmoji)
+                                    .addField("Weather of " + saaCity, saaTemp + saaMark + " " + ":dash: " + saaWind + "m/s " + saaWindEmoji)
                                     .addField("Sää ", saaCondEmoji + " " + saaDesc)
                                     message.channel.send(saaEmbed);
                             }

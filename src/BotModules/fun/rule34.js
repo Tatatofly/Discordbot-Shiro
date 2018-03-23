@@ -24,7 +24,7 @@ class Rule34Command extends Commando.Command {
     async run(message, args) {
         try {
             // Currently there is something wrong with Commando nsfw detection... So better make sure this works
-            if(message.message.channel.nsfw === true){
+            if(message.message.channel.nsfw){
                 if(args[0] === undefined){
                     var argR = "";
                 } else {
