@@ -27,12 +27,17 @@ class CatCommand extends Commando.Command {
                 });
         
                 res.on('end', function(){
-                    var getResponse = JSON.parse(body);
-                    var catReply = getResponse.file;
+                    try {
+                        var getResponse = JSON.parse(body);
+                        var catReply = getResponse.file;
 
-                    message.channel.send({
-                        files: [catReply]
-                    });
+                        message.channel.send({
+                            files: [catReply]
+                        });
+                    } catch(e) {
+                        console.log("Got an error: ", e);
+                        message.channel.send("The cat escaped! :crying_cat_face: ");
+                    }
                 });
             }).on('error', function(e){
                 console.log("Got an error: ", e);
