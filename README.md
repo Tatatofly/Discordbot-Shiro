@@ -45,7 +45,9 @@ npm install --save discord.js-commando xml2js twitter discord.js
 
 ## Planned modules
 - Spotify: Sends random song from spotify 
-- Rate: adds reaction to previous message
+- Rate: Adds reaction to previous message
+- Hashtag: Searches given hashtag from twitter and posts first result
+
 
 ## TODO
 - Input filter and sanitization
