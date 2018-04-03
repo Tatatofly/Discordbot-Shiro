@@ -22,12 +22,16 @@ npm install --save discord.js-commando xml2js twitter discord.js
 - twitterAccessSecret = Twitter developer access secret
 - spotifyID = Spotify developer client ID
 - spotifySecret = Spotify developer client secret
+- discordBotsApiKey = bots.discord.pw api key
+- discordBotsApiUrl = The url with your botid
+- trustedUsers = Add userid of trusted users. You can use module to add more users.
 
 
 ## Current modules
 ### Fun
 - Cat: Posts awesome cat :cat: *API will be fixed*
 - Meme: Posts spicy meme :ok_hand:
+- AddMeme: Owner and trusted users can add memes from url :smirk:
 - Smug: Posts smug anime girl :^)
 - Rule34: Posts lewd image from rule34.xxx :sweat_drops:
 - Get: Checks 'em and posts result :point_right: 
@@ -44,6 +48,8 @@ npm install --save discord.js-commando xml2js twitter discord.js
 ### Owner Tools
 - Activity: Sets bot Activity
 - Picture: Sets bot profile picture from url
+- Guilds: Posts number of guilds bot are into and updates count to bots.discord.pw
+- Trusted: Adds user to trusted list
 
 ## Planned modules
 - Spotify: Sends random song from spotify 
