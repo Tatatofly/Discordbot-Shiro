@@ -11,6 +11,8 @@
   "twitterAccessSecret": "",
   "spotifyID": "",
   "spotifySecret": "",
+  "discordBotsApiKey": "",
+  "discordBotsApiUrl": "https://bots.discord.pw/api/bots/267636401573462016/stats",
   "trustedUsers":[
     {
       "userTrustID": ""
