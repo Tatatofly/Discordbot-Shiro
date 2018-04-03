@@ -18,11 +18,10 @@ class memeCommand extends Commando.Command {
 
     async run(message, args) {
         try {
-            var randMeme = Math.floor(Math.random() * memes.memeCount) + 1;
-            var realMemeDeal = "meme" + randMeme;
-            var memeReply = memes[realMemeDeal];
+            var randMemeNum = Math.floor(Math.random() * memes.memeList.length) + 1;
+            var randMeme = memes.memeList[randMemeNum].meme;
             message.channel.send({
-                files: [memeReply]
+                files: [randMeme]
             });
         } catch(e) {
             console.log(e);
