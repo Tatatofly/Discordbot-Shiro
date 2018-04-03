@@ -1,5 +1,6 @@
 # Discordbot-Shiro
 DiscordBot WiP with JavaScript powered by Node.JS
+
 Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcgV)
 
 
