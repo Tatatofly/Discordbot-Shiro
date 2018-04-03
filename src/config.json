@@ -10,7 +10,7 @@
   "twitterAccessKey": "",
   "twitterAccessSecret": "",
   "spotifyID": "",
-  "spotifySecret": ""
+  "spotifySecret": "",
   "trustedUsers":[
     {
       "userTrustID": ""
