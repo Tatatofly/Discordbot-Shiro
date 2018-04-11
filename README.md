@@ -63,6 +63,7 @@ npm install --save discord.js-commando xml2js twitter discord.js
 - Purge: Purges a specified amount of messages
 - Userinfo: Gives info from given user (roles etc.)
 - UrbanDict: Searches given word from urbandictionary
+- Privatevc: Creates private voice chat
 
 
 ## TODO
