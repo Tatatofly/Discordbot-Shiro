@@ -55,9 +55,14 @@ npm install --save discord.js-commando xml2js twitter discord.js
 - Trusted: Adds user to trusted list
 
 ## Planned modules
+- Info: Info message
 - Spotify: Sends random song from spotify 
 - Rate: Adds reaction to previous message
 - Hashtag: Searches given hashtag from twitter and posts first result
+- Suggest: Saves suggested feature for bot owner
+- Purge: Purges a specified amount of messages
+- Userinfo: Gives info from given user (roles etc.)
+- UrbanDict: Searches given word from urbandictionary
 
 
 ## TODO
