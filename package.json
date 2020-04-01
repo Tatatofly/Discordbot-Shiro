@@ -1,0 +1,30 @@
+{
+  "name": "discobot-shiro",
+  "version": "0.2.0",
+  "description": "Discord bot Shiro",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatatofly/Discordbot-Shiro.git"
+  },
+  "keywords": [
+    "discord",
+    "anime",
+    "dicord bot",
+    "bot",
+    "shiro"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tatatofly/Discordbot-Shirot/issues"
+  },
+  "homepage": "https://github.com/Tatatofly/Discordbot-Shiro#readme",
+  "author": "Tatu Toikkanen",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
+}

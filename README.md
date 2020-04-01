@@ -1,70 +1,75 @@
 # Discordbot-Shiro
+>DiscordBot WiP with JavaScript powered by Node.JS
+
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![HitCount](http://hits.dwyl.io/Tatatofly/Discordbot-Shiro.svg)](http://hits.dwyl.io/Tatatofly/Discordbot-Shiro)
 
-DiscordBot WiP with JavaScript powered by Node.JS
-
 Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcgV)
 
+---
 
-## Install required packages
-```
-npm install --save discord.js-commando xml2js twitter discord.js
-```
+## Current commands
+- ping : Ping -> Pong
+- cat : Posts awesome cat :cat:
 
-## config.json
-- token = discord token
-- prefix = command prefix
-- botOwnerID = your discord id
-- botActivity = bot default activity
-- myGuildID = your server id (for commands like tweet)
-- OWMKey = OpenWeatherMap api key
-- twitterConsumerKey = Twitter developer consumer key
-- twitterConsumerSecret = Twitter developer consumer secret
-- twitterAccessKey = Twitter developer access key
-- twitterAccessSecret = Twitter developer access secret
-- spotifyID = Spotify developer client ID
-- spotifySecret = Spotify developer client secret
-- discordBotsApiKey = bots.discord.pw api key
-- discordBotsApiUrl = The url with your botid
-- trustedUsers = Add userid of trusted users. You can use module to add more users.
-
-
-## Current modules
-### Fun
-- Cat: Posts awesome cat :cat: *API will be fixed*
+## Planned commands
+### General
 - Meme: Posts spicy meme :ok_hand:
-- AddMeme: Owner and trusted users can add memes from url :smirk:
 - Smug: Posts smug anime girl :^)
 - Rule34: Posts lewd image from rule34.xxx :sweat_drops:
-- Get: Checks 'em and posts result :point_right: 
-
-### Twitter
-- Twitter: Tweets you message :bird:
-
-### Sää
-- Weather: Posts weather from given city (*currently only finnish cities*)
-
-### Status
+- Weather: Posts weather from given city
 - Steam: Posts steam and csgo server status
-
-### Owner Tools
-- Activity: Sets bot Activity
-- Picture: Sets bot profile picture from url
-- Guilds: Posts number of guilds bot are into and updates count to bots.discord.pw
-- Trusted: Adds user to trusted list
-
-## Planned modules
 - Info: Info message
-- Spotify: Sends random song from spotify 
-- Rate: Adds reaction to previous message
-- Hashtag: Searches given hashtag from twitter and posts first result
 - Suggest: Saves suggested feature for bot owner
 - Purge: Purges a specified amount of messages
 - Userinfo: Gives info from given user (roles etc.)
-- UrbanDict: Searches given word from urbandictionary
 - Privatevc: Creates private voice chat
+- UrbanDict: Searches given word from urbandictionary
+
+### Owner tools
+- Guilds: Posts number of guilds bot are into
+- Activity: Sets bot Activity
+- Picture: Sets bot profile picture from url
+
+---
+
+## How to install & Run
+#### Install required packages
+```
+npm install
+```
+#### Edit config.json
+##### config.json
+- token = Discord bot token
+- prefix = Command prefix
+- botOwnerID = Your Discord client id
+
+#### Start the bot
+```
+npm start
+```
+
+---
 
 
-## TODO
-- Input filter and sanitization
+#### Legacy version
+Legacy version in tag [legacy-version](https://github.com/Tatatofly/Discordbot-Shiro/tree/legacy-version)
+
+---
+
+## Support
+
+Reach out to me at one of the following places!
+
+- Website at <a href="https://tatu.moe" target="_blank">`Tatu.Moe`</a>
+- Twitter at <a href="https://twitter.com/TatuFin" target="_blank">`@TatuFin`</a>
+- Instagram at <a href="https://www.instagram.com/tatu.moe/" target="_blank">`@Tatu.Moe`</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/tatatofly/" target="_blank">`Tatatofly`</a>
+
+---
+
+## Licence
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="https://tatu.moe" target="_blank">Tatu Toikkanen</a>.
