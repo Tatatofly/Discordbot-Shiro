@@ -11,8 +11,10 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 ## Current commands
 ### General
 - Ping : Ping -> Pong
+- Bitcoin : Posts current price of bitcoin
 
 ### Fun
+- Bored: Posts activity to fight boredom
 - Cat : Posts awesome cat :cat:
 - Dog : Posts awesome dog :dog:
 - Fox : Posts awesome fox 🦊
