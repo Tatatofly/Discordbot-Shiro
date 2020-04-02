@@ -6,6 +6,8 @@
 
 Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcgV)
 
+![Discordbot-Shiro](https://files.tatu.moe/github-shiro.PNG)
+
 ---
 
 ## Current commands
