@@ -10,6 +10,7 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 
 ## Current commands
 ### General
+- Help : Posts help message with list of commands
 - Ping : Ping -> Pong
 - Bitcoin : Posts current price of bitcoin
 
