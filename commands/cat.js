@@ -20,7 +20,9 @@ async function getCat(message) {
 
 module.exports = {
 	name: 'cat',
-	cooldown: 30,
+  cooldown: 30,
+  guildOnly: false,
+  ownerOnly: false,
 	description: 'Posts awesome cat 🐱',
 	execute(message, args) {
 		getCat(message)

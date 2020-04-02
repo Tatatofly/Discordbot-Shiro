@@ -13,6 +13,10 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - Cat : Posts awesome cat :cat:
 - Smug: Posts smug anime girl :^)
 
+### Owner tools
+- Guilds: Posts number of guilds bot are into
+- Reload: Reloads a command
+
 ## Planned commands
 ### General
 - Meme: Posts spicy meme :ok_hand:
@@ -27,7 +31,6 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - UrbanDict: Searches given word from urbandictionary
 
 ### Owner tools
-- Guilds: Posts number of guilds bot are into
 - Activity: Sets bot Activity
 - Picture: Sets bot profile picture from url
 
