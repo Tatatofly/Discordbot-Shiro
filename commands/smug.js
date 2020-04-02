@@ -21,5 +21,5 @@ module.exports = {
 	description: 'Posts smug anime girl :^)',
 	execute(message, args) {
 		getSmug(message)
-	},
+	}
 }

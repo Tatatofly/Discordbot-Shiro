@@ -6,5 +6,5 @@ module.exports = {
 	description: 'Ping -> Pong',
 	execute(message, args) {
 		message.channel.send('pong')
-	},
+	}
 }

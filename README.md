@@ -11,10 +11,12 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 ## Current commands
 - Ping : Ping -> Pong
 - Cat : Posts awesome cat :cat:
+- Dog : Posts awesome dog :dog:
 - Smug: Posts smug anime girl :^)
 
 ### Owner tools
-- Guilds: Posts number of guilds bot are into
+- Guilds: Posts guilds count and posts it to top.gg bot page
+- Load: Loads a command
 - Reload: Reloads a command
 
 ## Planned commands

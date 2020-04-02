@@ -1,30 +1,30 @@
 const fetch = require('node-fetch')
 
 async function getCat(message) {
-  const url = 'https://aws.random.cat/meow'
+  const url = 'https://random.dog/woof.json'
   try {
     const response = await fetch(url)
     apiData = await response.json()
-    if(typeof apiData.file !== 'undefined' && apiData.file) {
+    if(typeof apiData.url !== 'undefined' && apiData.url) {
       message.channel.send({
-        files: [apiData.file]
+        files: [apiData.url]
       })
     } else {
-      message.channel.send("The cat escaped! :crying_cat_face: ")
+      message.channel.send("The dog escaped! :dog: ")
     }
   } catch (error) {
     console.log(error)
-    message.channel.send("The cat escaped! :crying_cat_face: ")
+    message.channel.send("The dog escaped! :dog: ")
   }
 }
 
 module.exports = {
-	name: 'cat',
+	name: 'dog',
   cooldown: 30,
   guildOnly: false,
   ownerOnly: false,
-	description: 'Posts awesome cat 🐱',
+	description: 'Posts awesome dog 🐕',
 	execute(message, args) {
 		getCat(message)
-	}
+	},
 }
