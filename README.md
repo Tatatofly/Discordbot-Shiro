@@ -9,13 +9,13 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 ---
 
 ## Current commands
-- ping : Ping -> Pong
-- cat : Posts awesome cat :cat:
+- Ping : Ping -> Pong
+- Cat : Posts awesome cat :cat:
+- Smug: Posts smug anime girl :^)
 
 ## Planned commands
 ### General
 - Meme: Posts spicy meme :ok_hand:
-- Smug: Posts smug anime girl :^)
 - Rule34: Posts lewd image from rule34.xxx :sweat_drops:
 - Weather: Posts weather from given city
 - Steam: Posts steam and csgo server status
