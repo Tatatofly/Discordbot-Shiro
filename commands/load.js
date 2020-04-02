@@ -3,6 +3,7 @@ module.exports = {
   cooldown: 5,
 	guildOnly: false,
   ownerOnly: true,
+  nsfw: false,
 	description: 'Loads a command',
 	execute(message, args) {
     if (!args.length) return message.channel.send(`You didn't pass any command to load`)

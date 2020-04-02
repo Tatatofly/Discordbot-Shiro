@@ -18,6 +18,7 @@ module.exports = {
   cooldown: 15,
   guildOnly: false,
   ownerOnly: false,
+  nsfw: false,
 	description: 'Posts smug anime girl :^)',
 	execute(message, args) {
 		getSmug(message)

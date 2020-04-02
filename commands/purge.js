@@ -14,6 +14,7 @@ module.exports = {
   cooldown: 5,
   guildOnly: true,
   ownerOnly: true,
+  nsfw: false,
 	description: 'Purges a specified amount of messages',
 	execute(message, args) {
     if (!args.length) return message.channel.send(`You didn't pass any amount`)

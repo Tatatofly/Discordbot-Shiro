@@ -9,7 +9,10 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 ---
 
 ## Current commands
+### General
 - Ping : Ping -> Pong
+
+### Fun
 - Cat : Posts awesome cat :cat:
 - Dog : Posts awesome dog :dog:
 - Smug: Posts smug anime girl :^)
@@ -48,6 +51,8 @@ npm install
 - token = Discord bot token
 - prefix = Command prefix
 - botOwnerID = Your Discord client id
+- topggBotAPIKey = API key for your bot at top.gg
+- topggBotID = bot ID at top.gg
 
 #### Start the bot
 ```

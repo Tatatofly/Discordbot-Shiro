@@ -38,6 +38,10 @@ client.on('message', message => {
         return message.channel.send(`I can't execute \`${config.prefix}${commandName}\` inside DMs`)
     }
 
+    if (command.nsfw && !message.channel.nsfw) {
+        return message.channel.send(`\`${config.prefix}${commandName}\` is Not Safe For Work`)
+    }
+
     if (!cooldowns.has(command.name)) {
         cooldowns.set(command.name, new Discord.Collection())
     }

@@ -23,6 +23,7 @@ module.exports = {
   cooldown: 30,
   guildOnly: false,
   ownerOnly: false,
+  nsfw: false,
 	description: 'Posts awesome cat 🐱',
 	execute(message, args) {
 		getCat(message)
