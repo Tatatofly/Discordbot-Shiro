@@ -15,7 +15,7 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 ### Fun
 - Cat : Posts awesome cat :cat:
 - Dog : Posts awesome dog :dog:
-- Fox : Posts awesome fox :fox:
+- Fox : Posts awesome fox 🦊
 - Shibe : Posts awesome shibe :dog2:
 - Smug: Posts smug anime girl :^)
 
