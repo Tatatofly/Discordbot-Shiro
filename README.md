@@ -18,6 +18,7 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - Guilds: Posts guilds count and posts it to top.gg bot page
 - Load: Loads a command
 - Reload: Reloads a command
+- Purge: Purges a specified amount of messages
 
 ## Planned commands
 ### General
@@ -27,7 +28,6 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - Steam: Posts steam and csgo server status
 - Info: Info message
 - Suggest: Saves suggested feature for bot owner
-- Purge: Purges a specified amount of messages
 - Userinfo: Gives info from given user (roles etc.)
 - Privatevc: Creates private voice chat
 - UrbanDict: Searches given word from urbandictionary

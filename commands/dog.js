@@ -26,5 +26,5 @@ module.exports = {
 	description: 'Posts awesome dog 🐶',
 	execute(message, args) {
 		getCat(message)
-	},
+	}
 }

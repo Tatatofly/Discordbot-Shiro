@@ -35,5 +35,5 @@ module.exports = {
 	description: 'Displays guilds count and posts it to top.gg bot page',
 	execute(message, args) {
 		getGuilds(message)
-	},
+	}
 }
