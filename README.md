@@ -13,6 +13,7 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 ## Current commands
 ### General
 - Help : Posts help message with list of commands
+- Info: Info message
 - Ping : Ping -> Pong
 - Bitcoin : Posts current price of bitcoin
 
@@ -36,7 +37,6 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - Rule34: Posts lewd image from rule34.xxx :sweat_drops:
 - Weather: Posts weather from given city
 - Steam: Posts steam and csgo server status
-- Info: Info message
 - Suggest: Saves suggested feature for bot owner
 - Userinfo: Gives info from given user (roles etc.)
 - Privatevc: Creates private voice chat

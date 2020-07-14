@@ -2,6 +2,8 @@
   "token": "DISCORD_BOT_TOKEN",
   "prefix": "s!",
   "botOwnerID": "128810662880083968",
+  "topggBotAPIKey": "",
+  "topggBotID": "",
   "OWMKey": "",
   "twitterConsumerKey": "",
   "twitterConsumerSecret": "",

@@ -25,11 +25,15 @@ module.exports = {
           "icon_url": "https://cdn.discordapp.com/app-icons/267636401573462016/03f3d357e36b57c8a95f719cb4fe0263.png?size=256",
           "text": "Source in Github"
         },
-        "timestamp": new Date(),
         "fields": [
           {
             "name": `${config.prefix}help`,
             "value": "Posts this message",
+            "inline": true
+          },
+          {
+            "name": `${config.prefix}info`,
+            "value": "Posts info message",
             "inline": true
           },
           {
