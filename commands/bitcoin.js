@@ -12,7 +12,7 @@ async function getBitcoin(message) {
           "color": 15825207,
           "timestamp": `${apiData.time.updatedISO}`,
           "footer": {
-            "text": "Updated at"
+            "text": "Updated"
           },
           "thumbnail": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/64px-Bitcoin.svg.png"
