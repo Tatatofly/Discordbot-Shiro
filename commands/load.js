@@ -15,6 +15,6 @@ module.exports = {
       console.log(error);
       message.channel.send(`There was an error while loading a command \`${commandName}\`:\n\`${error.message}\``);
     }
-    message.channel.send(`Command \`${commandName}\` was loaded`)
+    message.channel.send(`Command \`${commandName}\` loaded`)
 	}
 }

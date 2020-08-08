@@ -55,7 +55,7 @@ client.on('message', message => {
     
         if (now < expirationTime) {
             const timeLeft = (expirationTime - now) / 1000
-            return message.channel.send(`Wait ${timeLeft.toFixed(1)} seconds before reusing the \`${config.prefix}${commandName}\` command`)
+            return message.channel.send(`Wait ${timeLeft.toFixed(1)} seconds before using \`${config.prefix}${commandName}\` again`)
         }
     }
 
