@@ -19,7 +19,7 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 
 ### Fun
 - Bored: Posts activity to fight boredom
-- Cat : Posts awesome cat :cat:
+~~ - Cat : Posts awesome cat :cat: ~~
 - Dog : Posts awesome dog :dog:
 - Fox : Posts awesome fox 🦊
 - Shibe : Posts awesome shibe :dog2:
@@ -54,6 +54,9 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 npm install
 ```
 #### Edit config.json
+```
+mv config.json.example config.json
+```
 ##### config.json
 - token = Discord bot token
 - prefix = Command prefix

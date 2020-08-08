@@ -52,11 +52,6 @@ module.exports = {
             "inline": true
           },
           {
-            "name": `${config.prefix}cat`,
-            "value": "Posts awesome cat 🐱",
-            "inline": true
-          },
-          {
             "name": `${config.prefix}dog`,
             "value": "Posts awesome dog 🐶",
             "inline": true
