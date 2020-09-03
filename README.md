@@ -1,6 +1,8 @@
 # Discordbot-Shiro
 >DiscordBot WiP with JavaScript powered by Node.JS
 
+>Verified by Discord
+
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![HitCount](http://hits.dwyl.io/Tatatofly/Discordbot-Shiro.svg)](http://hits.dwyl.io/Tatatofly/Discordbot-Shiro)
 
