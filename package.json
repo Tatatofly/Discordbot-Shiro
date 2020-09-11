@@ -25,6 +25,7 @@
   "author": "Tatu Toikkanen",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.1.1"
+    "discord.js": "^12.1.1",
+    "xml2js": "^0.4.23"
   }
 }
