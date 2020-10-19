@@ -29,12 +29,13 @@ async function getLewd(message, args) {
 }
 
 module.exports = {
-	name: 'rule34',
+  name: 'rule34',
+  aliases: ['r34'],
   cooldown: 30,
   guildOnly: false,
   ownerOnly: false,
   nsfw: true,
-	description: 'Posts lewd image from rule34.xxx :sweat_drops:',
+	description: 'Posts lewd image from rule34.xxx',
 	execute(message, args) {
 		getLewd(message, args)
 	}
