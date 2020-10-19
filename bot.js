@@ -26,9 +26,8 @@ client.on('message', message => {
     const args = message.content.slice(config.prefix.length).split(/ +/)
     const commandName = args.shift().toLowerCase()
 
-    // Do we have the command or not
-    if (!client.commands.has(commandName)) return
-    const command = client.commands.get(commandName)
+    const command = client.commands.get(commandName) || client.commands.find(command => command.aliases && command.aliases.includes(commandName))
+    if (!command) return
 
     if (command.ownerOnly && message.author.id !== config.botOwnerID) {
         return message.channel.send(`\`${config.prefix}${commandName}\` is only for bot owner`)
