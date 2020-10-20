@@ -54,7 +54,7 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 ```
 npm install
 ```
-#### Edit config.json
+#### Copy & Edit config.json
 ```
 mv config.json.example config.json
 ```
@@ -85,7 +85,7 @@ Reach out to me at one of the following places!
 - Website at <a href="https://tatu.moe" target="_blank">`Tatu.Moe`</a>
 - Twitter at <a href="https://twitter.com/TatuFin" target="_blank">`@TatuFin`</a>
 - Instagram at <a href="https://www.instagram.com/tatu.moe/" target="_blank">`@Tatu.Moe`</a>
-- LinkedIn at <a href="https://www.linkedin.com/in/tatutoikkanen/" target="_blank">`Tatatofly`</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/tatutoikkanen/" target="_blank">`Tatu Toikkanen`</a>
 
 ---
 
