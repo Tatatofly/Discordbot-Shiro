@@ -82,7 +82,7 @@ Legacy version in tag [legacy-version](https://github.com/Tatatofly/Discordbot-S
 
 Reach out to me at one of the following places!
 
-- Website at <a href="https://tatu.moe" target="_blank">`Tatu.Moe`</a>
+- Website at <a href="https://tatato.fi" target="_blank">`Tatato.fi`</a>
 - Twitter at <a href="https://twitter.com/TatuFin" target="_blank">`@TatuFin`</a>
 - Instagram at <a href="https://www.instagram.com/tatu.moe/" target="_blank">`@Tatu.Moe`</a>
 - LinkedIn at <a href="https://www.linkedin.com/in/tatutoikkanen/" target="_blank">`Tatu Toikkanen`</a>
@@ -93,4 +93,4 @@ Reach out to me at one of the following places!
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2020 © <a href="https://tatu.moe" target="_blank">Tatu Toikkanen</a>.
+- Copyright 2020 © <a href="https://tatato.fi" target="_blank">Tatu Toikkanen</a>.
