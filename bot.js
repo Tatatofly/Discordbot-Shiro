@@ -21,7 +21,7 @@ client.on('ready', () => {
 })
 
 client.on('message', message => {
-    if (!message.content.startsWith(config.prefix) || message.author.bot) return
+    if (!message.content.toLowerCase().startsWith(config.prefix.toLowerCase()) || message.author.bot) return
     
     const args = message.content.slice(config.prefix.length).split(/ +/)
     const commandName = args.shift().toLowerCase()
