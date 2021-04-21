@@ -83,7 +83,7 @@ Reach out to me at one of the following places!
 
 - Website at <a href="https://tatato.fi" target="_blank">`Tatato.fi`</a>
 - Twitter at <a href="https://twitter.com/TatuFin" target="_blank">`@TatuFin`</a>
-- LinkedIn at <a href="https://www.linkedin.com/in/tatutoikkanen/" target="_blank">`Tatu Toikkanen`</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/tatu-toikkanen/" target="_blank">`Tatu Toikkanen`</a>
 
 ---
 
