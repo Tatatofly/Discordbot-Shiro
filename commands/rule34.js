@@ -15,9 +15,16 @@ async function getLewd(message, args) {
       if(postCount > 0) {
         var picNum = Math.floor(Math.random() * postCount) + 0;
         var r34Pic = result.posts.post[picNum].$.file_url;
-        message.channel.send({
-          files: [r34Pic]
-        });
+        var r34Preview = result.posts.post[picNum].$.sample_url;
+        try {
+          message.channel.send({
+            files: [r34Pic]
+          });
+        } catch (error) {
+          message.channel.send({
+            files: [r34Preview]
+          });
+        }
       } else {
         message.channel.send("Nobody here but us chickens!");
       }
