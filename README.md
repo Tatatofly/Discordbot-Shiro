@@ -27,8 +27,10 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - Smug: Posts smug anime girl :^)
 
 ### Owner tools
+- Activity: Sets bot Activity
 - Guilds: Posts guilds count and posts it to top.gg bot page
 - Load: Loads a command
+- Picture: Sets bot profile picture from url
 - Purge: Purges a specified amount of messages
 - Reload: Reloads a command
 
@@ -42,9 +44,6 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - Userinfo: Gives info from given user (roles etc.)
 - Weather: Posts weather from given city
 
-### Owner tools
-- Activity: Sets bot Activity
-- Picture: Sets bot profile picture from url
 
 ---
 
