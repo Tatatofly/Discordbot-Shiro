@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 
-async function getCat(message) {
+async function getAPI(message) {
   const url = 'https://randomfox.ca/floof/'
   try {
     const response = await fetch(url)
@@ -26,6 +26,6 @@ module.exports = {
   nsfw: false,
 	description: 'Posts awesome fox 🦊',
 	execute(message, args) {
-		getCat(message)
+		getAPI(message)
 	}
 }

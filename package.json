@@ -1,6 +1,6 @@
 {
   "name": "discobot-shiro",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Discord bot Shiro",
   "main": "bot.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "author": "Tatu Toikkanen",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.1.1",
+    "discord.js": "^13.1.0",
     "xml2js": "^0.4.23"
   }
 }

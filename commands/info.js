@@ -1,5 +1,5 @@
-const config = require("../config.json")
 const fetch = require('node-fetch')
+const config = require("../config.json")
 
 const lastCommit = async () => {
   const url = 'https://api.github.com/repos/Tatatofly/Discordbot-Shiro/commits'
@@ -17,8 +17,7 @@ const lastCommit = async () => {
 const sendMessage = async (message) => {
   const guildSize = await message.client.guilds.cache.size;
   const lastCommitDate = await lastCommit();
-  message.channel.send({
-    "embed": {
+  const messageEmbed = {
       "title": "Discordbot-Shiro",
       "description": "DiscordBot WiP with JavaScript powered by Node.JS",
       "url": "https://github.com/Tatatofly/Discordbot-Shiro",
@@ -35,16 +34,21 @@ const sendMessage = async (message) => {
         "icon_url": "https://cdn.discordapp.com/app-icons/267636401573462016/03f3d357e36b57c8a95f719cb4fe0263.png?size=256",
         "text": "Source in Github - Last commit"
       },
-      "timestamp": lastCommitDate,
+      "timestamp": String(lastCommitDate),
       "fields": [
         {
           "name": "Guilds size",
-          "value": guildSize,
+          "value": String(guildSize),
           "inline": true
         }
       ]
     }
-  })
+  try {
+    message.channel.send({embeds: [messageEmbed]})
+  } catch(error) {
+    console.log(error)
+    message.channel.send("Something went wrong..")
+  }
 }
 
 module.exports = {

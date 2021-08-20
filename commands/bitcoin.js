@@ -6,8 +6,7 @@ async function getBitcoin(message) {
     const response = await fetch(url)
     apiData = await response.json()
     if(typeof apiData.bpi !== 'undefined' && apiData.bpi) {
-      message.channel.send({
-        "embed": {
+      const messageEmbed = {
           "title": "Current price of Bitcoin",
           "color": 15825207,
           "timestamp": `${apiData.time.updatedISO}`,
@@ -34,8 +33,13 @@ async function getBitcoin(message) {
               "inline": true
             }
           ]
-        }
-      })
+      }
+      try {
+        message.channel.send({embeds: [messageEmbed]})
+      } catch(error) {
+        console.log(error)
+        message.channel.send("Something went wrong..")
+      }
     } else {
       message.channel.send("There is something wrong with API")
     }
