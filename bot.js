@@ -61,7 +61,7 @@ client.on('message', message => {
     try {
         timestamps.set(message.author.id, now)
         setTimeout(() => timestamps.delete(message.author.id), cooldownAmount)
-        command.execute(message, args)
+        command.execute(message, args, client)
     } catch (error) {
         console.error(error)
         message.channel.send('There was an error with that command')
