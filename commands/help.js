@@ -1,4 +1,5 @@
 const { prefix } = require("../config.json")
+
 module.exports = {
 	name: 'help',
   cooldown: 60,
@@ -18,8 +19,7 @@ module.exports = {
       }
       return result
     }, [])
-    message.channel.send({
-      "embed": {
+    const messageEmbed = {
         "title": "Discordbot-Shiro",
         "description": "List of commands: ",
         "url": "https://github.com/Tatatofly/Discordbot-Shiro",
@@ -38,6 +38,11 @@ module.exports = {
         },
         "fields": fieldsData
       }
-    })
+      try {
+        message.channel.send({embeds: [messageEmbed]})
+      } catch(error) {
+        console.log(error)
+        message.channel.send("Something went wrong..")
+      }
 	}
 }
