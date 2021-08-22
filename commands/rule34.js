@@ -17,16 +17,21 @@ async function getLewd(message, args) {
       if(postCount > 0) {
         var picNum = Math.floor(Math.random() * postCount) + 0;
         var r34Pic = r34Result.posts.post[picNum].$.file_url;
-        fetch(r34Pic, {method: 'HEAD'}).then(function (r34PicResponse){
-          r34PicSize = r34PicResponse.headers.get("Content-Length");
-          if(parseInt(r34PicSize, 10) < 8000000) {
-            message.channel.send({
-              files: [r34Pic]
-            });
-          } else {
-            message.channel.send("File was too large ;__;");
-          }
-        })
+        try {
+          fetch(r34Pic, {method: 'HEAD'}).then(function (r34PicResponse){
+            r34PicSize = r34PicResponse.headers.get("Content-Length");
+            if(parseInt(r34PicSize, 10) < 8000000) {
+              message.channel.send({
+                files: [r34Pic]
+              });
+            } else {
+              message.channel.send("File was too large ;__;");
+            }
+          })
+        } catch (error) {
+          message.channel.send("There was error with rule34 content")
+          console.log(error);
+        }
       } else {
         message.channel.send("Nobody here but us chickens!");
       }
