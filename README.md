@@ -36,6 +36,7 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 - Picture: Sets bot profile picture from url
 - Purge: Purges a specified amount of messages
 - Reload: Reloads a command
+- Unload: Unloads a command
 
 ## Planned commands
 ### General
