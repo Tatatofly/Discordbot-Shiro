@@ -91,4 +91,4 @@ Reach out to me at one of the following places!
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2020 © <a href="https://tatato.fi" target="_blank">Tatu Toikkanen</a>.
+- Copyright 2021 © <a href="https://tatato.fi" target="_blank">Tatu Toikkanen</a>.
