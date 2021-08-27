@@ -11,7 +11,7 @@ intents.add(
   Discord.Intents.FLAGS.DIRECT_MESSAGES
 );
 
-const client = new Discord.Client({ intents: intents, partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
+const client = new Discord.Client({ intents: intents, partials: ['MESSAGE', 'CHANNEL', 'REACTION'], restGlobalRateLimit: 50, restRequestTimeout: 30000, retryLimit: 2 });
 
 client.commands = new Discord.Collection();
 const cooldowns = new Discord.Collection();
