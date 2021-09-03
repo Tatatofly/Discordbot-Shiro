@@ -6,9 +6,21 @@ async function getAPI(message) {
     const response = await fetch(url)
     apiData = await response.json()
     if(typeof apiData.url !== 'undefined' && apiData.url) {
-      message.channel.send({
-        files: [apiData.url]
-      })
+      try {
+        fetch(apiData.url, {method: 'HEAD'}).then(function (dogPicResponse){
+          dogPicSize = dogPicResponse.headers.get("Content-Length");
+          if(parseInt(dogPicSize, 10) < 8000000) {
+            message.channel.send({
+              files: [apiData.url]
+            })
+          } else {
+            message.channel.send("File was too large ;__;");
+          }
+        })
+      } catch (error) {
+        message.channel.send("The dog escaped! :dog: ")
+        console.log(error);
+      }
     } else {
       message.channel.send("The dog escaped! :dog: ")
     }
