@@ -40,6 +40,8 @@ Live test and support in: [https://discord.gg/pGbbcgV](https://discord.gg/pGbbcg
 
 ## Planned commands
 ### General
+- Anime Quote: Posts random anime quote
+- MyAnimeList: Posts MAL stats from user
 - Privatevc: Creates private voice chat
 - Steam: Posts steam and csgo server status
 - Userinfo: Gives info from given user (roles etc.)
