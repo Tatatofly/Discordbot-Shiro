@@ -36,7 +36,6 @@ client.on('messageCreate', message => {
 
     const command = client.commands.get(commandName) || client.commands.find(command => command.aliases && command.aliases.includes(commandName));
     if (!command) return;
-    message.channel.sendTyping();
     
     if (command.ownerOnly && message.author.id !== config.botOwnerID) {
         return message.channel.send(`\`${config.prefix}${commandName}\` is only for bot owner`);
