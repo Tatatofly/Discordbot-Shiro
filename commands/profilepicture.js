@@ -7,7 +7,6 @@ async function setPicture(message, args, user) {
     console.log(`New profile pic: ${args[0]}`);
   } catch (error) {
     console.log(error)
-    message.channel.send(`There was an error while setting profile picture: ${error.message}`)
   }
 }
 

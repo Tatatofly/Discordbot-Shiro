@@ -7,7 +7,6 @@ async function setActivity(message, args, user) {
     console.log(`Activity: ${args[0]}`);
   } catch (error) {
     console.log(error)
-    message.channel.send(`There was an error while setting activity: ${error.message}`)
   }
 }
 

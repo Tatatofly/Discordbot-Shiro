@@ -47,7 +47,6 @@ const sendMessage = async (message) => {
     message.channel.send({embeds: [messageEmbed]})
   } catch(error) {
     console.log(error)
-    message.channel.send("Something went wrong..")
   }
 }
 

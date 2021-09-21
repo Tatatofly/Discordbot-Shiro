@@ -38,14 +38,12 @@ async function getBitcoin(message) {
         message.channel.send({embeds: [messageEmbed]})
       } catch(error) {
         console.log(error)
-        message.channel.send("Something went wrong..")
       }
     } else {
       message.channel.send("There is something wrong with API")
     }
   } catch (error) {
     console.log(error)
-    message.channel.send("Error with API connection")
   }
 }
 

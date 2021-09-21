@@ -5,7 +5,6 @@ async function purge(message, amount) {
       .catch(console.error)
   } catch (error) {
     console.log(error)
-    message.channel.send("There was error with purge")
   }
 }
 

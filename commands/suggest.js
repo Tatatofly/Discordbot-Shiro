@@ -15,7 +15,6 @@ module.exports = {
       message.channel.send("Thanks :smiley:")
     } catch(error) {
       console.log(error)
-      message.channel.send("Something went wrong..")
     }
 	}
 }

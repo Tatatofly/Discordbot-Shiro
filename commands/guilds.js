@@ -23,7 +23,6 @@ async function getGuilds(message) {
     })
   } catch(error) {
     console.log(error)
-    message.channel.send("Something went wrong ;__;")
   }
 }
 

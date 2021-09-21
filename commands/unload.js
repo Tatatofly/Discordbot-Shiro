@@ -15,7 +15,6 @@ module.exports = {
       message.client.commands.delete(command.name)
     } catch (error) {
       console.log(error)
-      message.channel.send(`There was an error while unloading a command \`${command.name}\`:\n\`${error.message}\``)
     }
     message.channel.send(`Command \`${command.name}\` unloaded`)
 	}

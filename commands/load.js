@@ -13,7 +13,6 @@ module.exports = {
       message.client.commands.set(newCommand.name, newCommand);
     } catch (error) {
       console.log(error);
-      message.channel.send(`There was an error while loading a command \`${commandName}\`:\n\`${error.message}\``);
     }
     message.channel.send(`Command \`${commandName}\` loaded`)
 	}

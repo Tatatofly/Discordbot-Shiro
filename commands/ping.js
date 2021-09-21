@@ -6,6 +6,10 @@ module.exports = {
   nsfw: false,
 	description: 'Ping -> Pong',
 	execute(message, args) {
-		message.channel.send('pong')
+		try {
+			message.channel.send('pong')
+		} catch (error) {
+			console.log(error)
+		}
 	}
 }

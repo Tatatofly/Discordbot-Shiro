@@ -18,7 +18,6 @@ async function getAPI(message) {
           }
         })
       } catch (error) {
-        message.channel.send("The dog escaped! :dog: ")
         console.log(error);
       }
     } else {
@@ -26,7 +25,6 @@ async function getAPI(message) {
     }
   } catch (error) {
     console.log(error)
-    message.channel.send("The dog escaped! :dog: ")
   }
 }
 

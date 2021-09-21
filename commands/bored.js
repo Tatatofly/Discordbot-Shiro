@@ -22,7 +22,6 @@ async function getCat(message, participants) {
     }
   } catch (error) {
     console.log(error)
-    message.channel.send("Something went wrong with the Command")
   }
 }
 

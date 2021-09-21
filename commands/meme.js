@@ -21,7 +21,6 @@ async function getAPI(message) {
     }
   } catch (error) {
     console.log(error)
-    message.channel.send("Something memed wrong..")
   }
 }
 

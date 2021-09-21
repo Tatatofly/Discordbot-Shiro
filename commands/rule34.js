@@ -29,7 +29,6 @@ async function getLewd(message, args) {
             }
           })
         } catch (error) {
-          message.channel.send("There was error with rule34 content")
           console.log(error);
         }
       } else {
@@ -42,7 +41,6 @@ async function getLewd(message, args) {
     });
   } catch (error) {
     console.log(error)
-    message.channel.send("There was error with rule34.xxx")
   }
 }
 

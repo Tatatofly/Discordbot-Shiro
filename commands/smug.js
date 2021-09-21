@@ -9,7 +9,6 @@ async function getSmug(message) {
     })
   } catch (error) {
     console.log(error)
-    message.channel.send("There was error with the smug ;__;")
   }
 }
 
