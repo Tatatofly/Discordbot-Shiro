@@ -38,15 +38,15 @@ client.on('messageCreate', message => {
     if (!command) return;
     
     if (command.ownerOnly && message.author.id !== config.botOwnerID) {
-        return message.channel.send(`\`${config.prefix}${commandName}\` is only for bot owner`);
+        return sendErrorMessage(message, `\`${config.prefix}${commandName}\` is only for bot owner`);
     }
 
     if (command.guildOnly && message.channel.type === 'DM') {
-        return message.channel.send(`I can't execute \`${config.prefix}${commandName}\` inside DMs`);
+        return sendErrorMessage(message, `I can't execute \`${config.prefix}${commandName}\` inside DMs`);
     }
 
     if (command.nsfw && !message.channel.nsfw) {
-        return message.channel.send(`\`${config.prefix}${commandName}\` is Not Safe For Work`);
+        return sendErrorMessage(message, `\`${config.prefix}${commandName}\` is Not Safe For Work`);
     }
 
     if (!cooldowns.has(command.name)) {
@@ -62,7 +62,7 @@ client.on('messageCreate', message => {
     
         if (now < expirationTime) {
             const timeLeft = (expirationTime - now) / 1000;
-            return message.channel.send(`Wait ${timeLeft.toFixed(1)} seconds before using \`${config.prefix}${commandName}\` again`);
+            return sendErrorMessage(message, `Wait ${timeLeft.toFixed(1)} seconds before using \`${config.prefix}${commandName}\` again`);
         }
     }
 
@@ -72,8 +72,16 @@ client.on('messageCreate', message => {
         command.execute(message, args, client);
     } catch (error) {
         console.error(error);
-        message.channel.send('There was an error with that command');
+        sendErrorMessage(message, 'There was an error with that command');
     }
 });
 
 client.login(config.token);
+
+async function sendErrorMessage(message, text) {
+    try {
+        message.channel.send(text);
+    } catch (error) {
+        console.log(error)
+    }
+}
