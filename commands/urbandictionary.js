@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 
 async function getAPI(message, args) {
   if (!args.length) return message.channel.send('You need to give a word to search...')
-  const url = 'https://api.urbandictionary.com/v0/define?term=' + args[0];
+  const url = encodeURI('https://api.urbandictionary.com/v0/define?term=' + args[0]);
   try {
     const response = await fetch(url)
     apiData = await response.json()

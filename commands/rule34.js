@@ -3,7 +3,7 @@ const xml2js = require('xml2js');
 
 async function getLewd(message, args) {
   const arguments = args[0] ? args[0] : ''
-  const url = 'https://rule34.xxx/index.php?page=dapi&s=post&q=index&tags=' + arguments;
+  const url = encodeURI('https://rule34.xxx/index.php?page=dapi&s=post&q=index&tags=' + arguments);
   try {
     const response = await fetch(url)
     apiData = await response.text()
@@ -37,7 +37,6 @@ async function getLewd(message, args) {
     })
     .catch(function (error) {
       console.log(error)
-      message.channel.send("There was error with rule34 content")
     });
   } catch (error) {
     console.log(error)
