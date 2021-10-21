@@ -30,13 +30,14 @@ client.once('ready', () => {
 
 client.on('messageCreate', message => {
     if (!message.content.toLowerCase().startsWith(config.prefix.toLowerCase()) || message.author.bot) return;
+    if (!(message.guild && message.channel.permissionsFor(message.guild.me).has("SEND_MESSAGES"))) return;
 
     const args = message.content.slice(config.prefix.length).split(/ +/);
     const commandName = args.shift().toLowerCase();
 
     const command = client.commands.get(commandName) || client.commands.find(command => command.aliases && command.aliases.includes(commandName));
     if (!command) return;
-    
+
     if (command.ownerOnly && message.author.id !== config.botOwnerID) {
         return sendErrorMessage(message, `\`${config.prefix}${commandName}\` is only for bot owner`);
     }
