@@ -27,6 +27,8 @@ async function getLewd(message, args) {
             } else {
               message.channel.send("File was too large ;__;");
             }
+          }).catch(function (error) {
+            console.log(error);
           })
         } catch (error) {
           console.log(error);
