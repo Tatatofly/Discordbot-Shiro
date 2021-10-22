@@ -3,8 +3,8 @@ const config = require("../config.json");
 async function setActivity(message, args, user) {
   if (!args.length) return user.setActivity(config.activity);
   try {
-    user.setActivity(args[0]);
-    console.log(`Activity: ${args[0]}`);
+    user.setActivity(args.join(" "));
+    console.log(`Activity: ${args.join(" ")}`);
   } catch (error) {
     console.log(error)
   }
