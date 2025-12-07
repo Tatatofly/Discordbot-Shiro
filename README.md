@@ -79,18 +79,8 @@ Legacy version in tag [legacy-version](https://github.com/Tatatofly/Discordbot-S
 
 ---
 
-## Support
-
-Reach out to me at one of the following places!
-
-- Website at <a href="https://tatato.fi" target="_blank">`Tatato.fi`</a>
-- Twitter at <a href="https://twitter.com/TatuFin" target="_blank">`@TatuFin`</a>
-- LinkedIn at <a href="https://www.linkedin.com/in/tatu-toikkanen/" target="_blank">`Tatu Toikkanen`</a>
-
----
-
 ## Licence
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2021 © <a href="https://tatato.fi" target="_blank">Tatu Toikkanen</a>.
+- Copyright 2021 © Tatatofly.
